@@ -20,3 +20,14 @@
 
 외우기 밀마나피 KMGTPB
 ```
+
+## High Level Language & Machine Language
+```
+High Level Language(사람이 이해하기 쉬운) C, JAVA
+Low Level Language(기계가 이해하기 쉬운) Assembly
+
+고급 언어는 있지만 저급 언어라는 단어가 없는 이유?
+
+고급 언어 High Level Language는 High Quality가 아닌 Human Being을 뜻하고
+Low Level Language는 Low Quality가 아닌 Machine Language를 뜻하기 때문입니다.
+```
