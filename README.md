@@ -203,3 +203,9 @@ A[12] = h + A[8]
 
 sw $t0, 48($s3)
 ```
+
+## 판단을 위한 명령어
+```
+beq register1, register2, L1 : register1와 register2가 같으면 L1에 해당하는 문장으로
+bne register1, register2, L2 : register1와 register2가 같으면 L2에 해당하는 문장으로
+```
