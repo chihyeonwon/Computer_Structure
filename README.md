@@ -209,3 +209,16 @@ sw $t0, 48($s3)
 beq register1, register2, L1 : register1와 register2가 같으면 L1에 해당하는 문장으로
 bne register1, register2, L2 : register1와 register2가 같으면 L2에 해당하는 문장으로
 ```
+
+## if then else를 조건부 분기로 번역
+```
+if(i == j) f = g + h; else f = g - h;
+
+f, g, h, i, j는 변수이고 레지스터 $s0 ~ $s4에 해당한다.
+
+bne $s3, $s4, Else
+add $s0, $s1, $s2
+j Exit
+Else: sub $s0, $s1, $s2
+Exit:
+```
