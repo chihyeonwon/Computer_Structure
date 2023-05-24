@@ -274,3 +274,17 @@ addi $sp, $sp, 12 // 스택 포인터 증가
 
 jr $ra // 복귀 주소를 사용하는 점프 명령으로 끝낸다.
 ```
+## 캐시 성능 계산
+```
+#instruction (명령어 개수) * Miss panalty * Cache miss rate 
+I * 100 * 2.00% = 2.00I
+I * 100 * 4.00* 
+
+memory stall cycles = 3.44I
+memory stall rate = stall cycles / CPI + stall cycles 
+
+AMAT = time for hit + miss rate * miss panalty
+
+AMAT = 1 + 0.05 * 20 clock cycles = 2 clock cycles or 2 clock cycles * 1ns/cycle = 2ns
+
+```
